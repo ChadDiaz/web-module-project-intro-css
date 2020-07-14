@@ -1,0 +1,11 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.imagecontainer {
+    width: 200px;
+}
+.footerpic {
+    width: 200px;
+}
