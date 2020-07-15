@@ -38,9 +38,17 @@ html {
     text-align: center;
 }
 .topanchor a {
+    margin-top: 1rem;
+    text-align: center;
     font-size: 2rem;
-    padding: 10px;
+    padding: .5rem;
     border-radius: 2rem;
+    flex-wrap: wrap;
+    width: 14rem;
+}
+.topanchor a:hover {
+    background-color: yellowgreen;
+    color: tomato;
 }
 .PYV {
     background-color: #ff764e;
@@ -54,10 +62,11 @@ html {
 .headerintro {
     display: flex;
     justify-content: space-evenly;
+    margin-right: 10rem;
     margin-bottom: 5rem;
 }
 .imagecontainer {
-    width: 30rem;
+    width: 35rem;
     border-radius: 50%;
 }
 .banner h1 {
@@ -83,7 +92,10 @@ html {
     padding: 1rem 1rem;
     width: 175rem;
 }
-
+.middlebody:hover {
+    background-color: white;
+    color: #ddb9a3;
+}
 .firecontainer {
     display: flex;
     flex-direction: column;
@@ -91,6 +103,7 @@ html {
 .firecontainer img {
     margin: 2rem auto;
     width: 20rem;
+    transition: width 2s;
 }
 .firecontainer p {
     margin: 0 auto;
@@ -98,7 +111,10 @@ html {
     font-size: 2rem;
     text-align: center;
     width: 60rem;
-    }
+}
+.firecontainer img:hover {
+    width: 30rem;
+}
 .buscontainer {
     display: flex;
     flex-direction: column;
@@ -106,6 +122,10 @@ html {
 .buscontainer img {
     margin: 0 auto;
     width: 20rem;
+    transition: width 2s;
+}
+.buscontainer img:hover {
+    width: 30rem;
 }
 .buscontainer p {
     margin: 0 auto;
@@ -131,12 +151,15 @@ html {
     background-color: #fde7dc ;
 }
 .footeranchor a {
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
-    height: 5rem;
-    line-height: 5rem;
     font-size: 2rem;
-    padding: 10px;
+    padding: .5rem;
     border-radius: 2rem;
-    text-align: justify;
+    flex-wrap: wrap;
+    width: 14rem;
+}
+.footeranchor a:hover {
+    background-color: yellowgreen;
+    color: tomato;
 }
