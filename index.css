@@ -42,9 +42,9 @@ html {
 .topanchor a {
     font-size: 2rem;
     padding: 10px;
+    border-radius: 5px;
 }
 .PYV {
-    border-radius: 5px;
     background-color: #ff764e;
 }
 .LTP {
@@ -73,4 +73,21 @@ html {
 }
 .footerpic {
     width: 20rem;
+}
+.footeranchor {
+    margin: 0 auto;
+    font-family: 'Roboto Mono' monospace;
+    background-color: #F9E7DC;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.footeranchor a {
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 5px;
+    
 }
