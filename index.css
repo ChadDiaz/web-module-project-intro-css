@@ -40,7 +40,7 @@ html {
 .topanchor a {
     font-size: 2rem;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 2rem;
 }
 .PYV {
     background-color: #ff764e;
@@ -82,28 +82,54 @@ html {
     width: 80rem;
 }
 
-.fireContainer {
+.firecontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-
-.footerpic {
+.firecontainer img {
+    margin: 2rem auto;
     width: 20rem;
 }
-.footeranchor {
+.firecontainer p {
     margin: 0 auto;
     font-family: 'Roboto Mono', monospace;
-    background-color: #F9E7DC;
+    font-size: 2rem;
+    text-align: center;
+    }
+.buscontainer {
+    display: flex;
+    flex-direction: column;
+}
+.buscontainer img {
+    margin: 0 auto;
+    width: 20rem;
+}
+.buscontainer p {
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#mainfooter {
+    display: flex;
+    flex-direction: column;
+}
+.footeranchor {
+    font-family: 'Roboto Mono', monospace;
     color: white;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 5rem;
-    padding: 5rem;
+    height: 10rem;
+    background-color: #fde7dc ;
 }
 .footeranchor a {
+    margin-top: 2rem;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
     font-size: 2rem;
-    padding: .05rem;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 2rem;
+    text-align: justify;
 }
