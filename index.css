@@ -24,14 +24,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-
 html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
-
 .topanchor {
-    font-family: 'Roboto Mono' monospace;
+    font-family: 'Roboto Mono', monospace;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -42,7 +40,7 @@ html {
 .topanchor a {
     font-size: 2rem;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .PYV {
     background-color: #ff764e;
@@ -53,41 +51,59 @@ html {
 .GI {
     background-color: #FFCD69;
 }
-
 .headerintro {
     display: flex;
+    justify-content: space-evenly;
+}
+.imagecontainer {
+    width: 30rem;
+    border-radius: 50%;
+}
+.banner h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center;    
+}
+.banner p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
 }
 .middlebody {
     margin: 0 auto;
     background-color: #DDB9A3;
-    font-family: 'Roboto Mono' monospace;
+    font-family: 'Roboto Mono', monospace;
     color: white;
     font-size: 1.5rem;
     text-align: center;       
     padding: 20px 20px;
     width: 80rem;
 }
-.imagecontainer {
-    width: 30rem;
-    border-radius: 50%;
+
+.fireContainer {
+    display: flex;
+    flex-direction: row;
 }
+
 .footerpic {
     width: 20rem;
 }
 .footeranchor {
     margin: 0 auto;
-    font-family: 'Roboto Mono' monospace;
+    font-family: 'Roboto Mono', monospace;
     background-color: #F9E7DC;
     color: white;
     display: flex;
     justify-content: space-evenly;
     font-size: 1.5rem;
     text-align: center;
-    
+    line-height: 5rem;
+    padding: 5rem;
 }
 .footeranchor a {
     font-size: 2rem;
-    padding: 10px;
-    border-radius: 5px;
-    
+    padding: .05rem;
+    border-radius: 20px;
 }
