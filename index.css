@@ -33,13 +33,17 @@ html {
 .topanchor {
     font-family: 'Roboto Mono' monospace;
     color: white;
+    display: flex;
+    justify-content: space-evenly;
     font-size: 1.5rem;
-    border: 1px solid;
-    border-radius: 20%;
+    border: 2rem solid;
     text-align: center;
 }
+.topanchor a {
+    font-size: 2rem;
+    padding: 10px;
+}
 .PYV {
-    margin: 0 auto;
     border-radius: 5px;
     background-color: #ff764e;
 }
@@ -49,9 +53,24 @@ html {
 .GI {
     background-color: #FFCD69;
 }
+
+.headerintro {
+    display: flex;
+}
+.middlebody {
+    margin: 0 auto;
+    background-color: #DDB9A3;
+    font-family: 'Roboto Mono' monospace;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;       
+    padding: 20px 20px;
+    width: 80rem;
+}
 .imagecontainer {
-    width: 200px;
+    width: 30rem;
+    border-radius: 50%;
 }
 .footerpic {
-    width: 200px;
+    width: 20rem;
 }
