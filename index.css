@@ -138,6 +138,7 @@ html {
     flex-direction: column;
 }
 #mainfooter img {
+    margin-top: 5rem;
     max-height: 20rem;
 }
 .footeranchor {
