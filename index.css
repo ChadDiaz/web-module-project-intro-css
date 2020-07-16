@@ -139,7 +139,8 @@ html {
 }
 #mainfooter img {
     margin-top: 5rem;
-    max-height: 20rem;
+    height: 20rem;
+    object-fit: cover;
 }
 .footeranchor {
     font-family: 'Roboto Mono', monospace;
