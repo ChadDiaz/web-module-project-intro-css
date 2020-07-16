@@ -158,6 +158,9 @@ html {
     align-self: center;
     width: 14rem;
 }
+.footeranchor:hover {
+    background-color: blue;
+}
 .footeranchor a:hover {
     background-color: yellowgreen;
     color: tomato;
