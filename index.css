@@ -1,0 +1,169 @@
+* reset css */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+/* HTML5 display-role reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.topanchor {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    border: 2rem solid;
+    text-align: center;
+}
+.topanchor a {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: .5rem;
+    border-radius: 2rem;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 14rem;
+}
+.topanchor a:hover {
+    background-color: yellowgreen;
+    color: tomato;
+}
+.PYV {
+    background-color: #ff764e;
+}
+.LTP {
+    background-color: #5ed3eb;
+}
+.GI {
+    background-color: #FFCD69;
+}
+.headerintro {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 10rem;
+}
+.imagecontainer {
+    width: 35rem;
+    border-radius: 50%;
+}
+.banner h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center;    
+}
+.banner p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.middlebody {
+    margin: 0 auto;
+    background-color: #DDB9A3;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;       
+    padding: 1rem 1rem;
+}
+.middlebody:hover {
+    background-color: white;
+    color: #ddb9a3;
+}
+.firecontainer {
+    display: flex;
+    flex-direction: column;
+}
+.firecontainer img {
+    margin: 2rem auto;
+    width: 20rem;
+    transition: width 2s;
+}
+.firecontainer p {
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+    width: 60rem;
+}
+.firecontainer img:hover {
+    width: 30rem;
+}
+.buscontainer {
+    display: flex;
+    flex-direction: column;
+}
+.buscontainer img {
+    margin: 0 auto;
+    width: 20rem;
+    transition: width 2s;
+}
+.buscontainer img:hover {
+    width: 30rem;
+}
+.buscontainer p {
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+    width: 60rem;
+}
+#mainfooter {
+    display: flex;
+    flex-direction: column;
+}
+#mainfooter img {
+    margin-top: 5rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.footeranchor {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    background-color: #fde7dc ;
+}
+.footeranchor a {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: .5rem;
+    border-radius: 2rem;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 14rem;
+}
+.footeranchor:hover {
+    background-color: blue;
+}
+.footeranchor a:hover {
+    background-color: yellowgreen;
+    color: tomato;
+}
